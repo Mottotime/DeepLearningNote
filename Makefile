@@ -5,4 +5,6 @@ ans:main.tex ref.bib
 	xelatex main.tex
 	open main.pdf
 clean:
-	git rm -f *.aux *.lof *.lot *.toc *.bbl *.blg *.log main.pdf 
+	git rm -f *.aux *.lof *.lot *.toc *.bbl *.blg *.log main.pdf
+git:
+	git push -u origin master
