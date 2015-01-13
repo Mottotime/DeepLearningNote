@@ -5,4 +5,4 @@ ans:main.tex ref.bib
 	xelatex main.tex
 	open main.pdf
 clean:
-	rm -f *.aux *.lof *.lot *.toc *.bbl *.blg *.out *.log main.pdf 
+	git rm -f *.aux *.lof *.lot *.toc *.bbl *.blg *.log main.pdf 

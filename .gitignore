@@ -1,0 +1,4 @@
+!*.tex
+!*.bib
+!Makefile
+*.aux *.lof *.lot *.toc *.bbl *.blg *.log
